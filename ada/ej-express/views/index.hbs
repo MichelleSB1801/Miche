@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ajax</title>
+    <link rel="stylesheet" href="stylesheets/style.css">
+  </head>
+  <body>
+    <div class='maincontainer'>
+	   <div class="fraseContainer"> 
+      <div class="textFrase"> </div>
+     </div>
+
+     <div class="botonesContainer">
+       <div id="like" class="boton">
+        <img src="images/comprobado.png">
+     </div>
+     <div id="dislike" class="boton">
+       <img src="images/icon.png">
+     </div>
+    </div>
+
+    <div class="posteos">
+      {{#each frasekey}}
+    <li>{{this}}</li>
+      {{/each}}
+    </div> 
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="javascripts/new.js"></script>
+  </body>
+</html>
