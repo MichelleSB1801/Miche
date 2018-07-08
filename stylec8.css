@@ -1,0 +1,19 @@
+.container{
+ width: auto;
+ height: 300px;
+ margin: 0px;
+}
+
+.primero{
+	background-color: red;
+	position: absolute;
+	top: 0px;
+}
+
+.segundo{
+	background-color: pink;
+}
+.tercero{
+	background-color: yellow;
+}
+

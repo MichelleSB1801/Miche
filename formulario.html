@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario</title>
+	<meta charset="utf-8">
+</head>
+<body style="font-family:Comic Sans MS">
+	<form action="/hola.php" method="get">
+		<br>
+		<span>Nombre</span> <br>
+		<br>
+			<input type="text" name="Nombre"><br>
+		<br>
+		<span>Apellido</span><br>
+		<br>
+			<input type="text" name="Apellido">
+			<br>
+		<br>
+		<span>Email</span><br>
+		<br>
+			<input type="Email" name="Email">
+			<br>
+		<br>
+		<span>Genero</span><br>
+			<p>
+				<input type="radio" name="Genero" value="F">
+				<label for="Genero">Femenino</label>
+				<input type="radio" name="Genero" value="M">
+				<label for="Genero">Masculino</label>
+				<input type="radio" name="Genero" value="O">
+				<label for="Genero">Otrx</label>
+			</p>
+			<br>
+		<span>Nacionalidad</span><br>
+		<br>
+		<select name="Nacionalidad" style="font-family:Comic Sans MS">
+			<option value="Ar">Argentina</option>
+			<option value="Pe">Perú</option>
+			<option value="Cl">Chile</option>
+			<option value="Co">Colombia</option>
+			<option value="Ve">Venezuela</option>
+		</select><br>
+		<br>
+		<span>Temas que le interesan</span><br>
+		<br>
+			<input type="checkbox" name="Infra" id="ok">
+			<label for="ok">Infraestructura</label> <br>
+			<input type="checkbox" name="ProgWeb" id="ok2">
+			<label for="ok2">Programación web</label> <br>
+			<input type="checkbox" name="ProgMob" id="ok3">
+			<label for="ok3">Programación mobile</label><br>
+		<br>
+		<input type="checkbox" name="Terminos">Acepta los terminos y condiciones<br>
+		<br>
+		<input type="submit"><br>
+		<br>
+	</form>
+</body>
+</html>

@@ -1,0 +1,36 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	text-align: center;
+}
+
+.logo {
+	height: auto;
+	padding: 10px 0;
+	background-color: #556b8e;
+}
+
+.sidebar {
+	background-color: #0a1a35;
+	height: 500px; 
+	padding-top:20px;
+}
+
+.product-container {
+	padding-top:20px;
+}
+
+.main-content {
+	height: auto;
+	margin-bottom: 30px;
+
+}
+
+.boxes{
+	background-color: pink;
+	margin: 0 35px;
+	height: 200px;
+}

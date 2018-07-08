@@ -1,0 +1,19 @@
+div{
+	padding: 1%;
+	width: 46%;
+	height: 200px;
+	text-align: center;
+	display: inline-block;
+	margin: 1%;
+
+}
+#green{
+	background-color: green;
+}
+#blue{
+	background-color: blue;
+}
+body{
+	margin: 0 auto;
+	font-size: 0px;
+}

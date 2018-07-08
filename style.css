@@ -1,0 +1,53 @@
+/*p{
+	color: black;
+}
+
+#rojo{
+	color: red;
+}
+
+.azul{
+	color: blue;
+}
+
+div p.azul {
+	color: green;
+}
+
+ul{
+	list-style: none;
+
+
+.hombre{
+	color: pink;
+}
+.mujer{
+	color: green;
+}
+.menor{
+	font-size: 12px
+}
+.mayor{
+	font-size: 22px
+}
+*/
+
+body{
+	font-family: Arial;
+}
+
+#encabezado{
+	text-align: center;
+	color: #158fb0;
+}
+#titulo{
+	font-size: 45px;
+	text-align: right;
+}
+.piedeimg{
+	font-size: 12px;
+}
+span{
+	font-size: 30px;
+	font-weight: bold;
+}

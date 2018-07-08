@@ -1,0 +1,120 @@
+/*.main-container{
+    @mycolor: peru;
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    &:hover {
+        background-color: @mycolor;
+    }
+}*/
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+.main-container{
+	@maxwidht: 600px;
+	@bgc: #278afc;
+	@bgcl: #f60a39;
+	@margin: 10px;
+	width: @maxwidht;
+	height: auto;
+	margin: auto;
+		
+	.banner-container{
+		width: @maxwidht;
+		height: 100px;
+		background-color: @bgcl;
+	}
+	.img-container{
+		width: @maxwidht;
+		height: 100px;
+		margin: @margin 0px;
+		display:flex;
+		justify-content: space-between;  
+		align-items: center;
+	}
+	#imgred{
+		background-color: @bgc;
+	}
+	.img-container div{
+		width: (@maxwidht/2)-5;
+		height: 100px;
+		background-color: @bgcl;
+	}
+	.parrafos-container{
+		height: auto;
+		width: @maxwidht;
+		.parrafo1{
+			color: @bgcl;
+			background-color: @bgc;
+		}
+		.parrafo2{
+			color: @bgc;
+			background-color: @bgcl;
+		}
+	} 
+}
+.nav-container{
+	width: 100%;
+	height: 40px;
+	background-color: #78a7e6;
+	position: fixed;
+	display: none;
+		.navegador{
+			display: flex;
+			color: white;
+			font-size: 20px;
+			height: 40px;
+			align-items: center;
+			.barra{
+				margin:10px;
+			}
+		.search-container{
+				width: 100%;
+				height: 30px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				input{
+					margin-right: 10px;
+				}
+			}
+		}
+}
+
+@media  (max-width: 1000px) {
+	.nav-container{
+		display: block;
+	}
+	.main-container{
+		max-width: 100%;
+		min-width: 100%;
+		padding-top: 40px;
+		.banner-container{
+			max-width: 100%;
+			min-width: 100%;
+			height: 100px;
+		}
+		.img-container{
+			max-width: 100%;
+			min-width: 100%; 
+			display: block;
+			font-size: 0;
+			margin:0px;
+		}
+		.img-container div{
+			width: 50%;
+			display: inline-block;
+		}
+		.parrafos-container{
+			width: 100%;
+			font-size: 0px;
+			.parrafo1, .parrafo2{
+				width: 50%;
+				font-size: 20px;
+				display: inline-block;
+			}	
+		}
+	}	
+}

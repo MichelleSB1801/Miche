@@ -1,0 +1,41 @@
+body{
+	margin:0;
+	padding: 0;
+}
+.container{
+	background-color: blue;
+}
+.logo{
+	background-color: black;
+	width: 50px;
+	height: 50px;
+	margin: auto;
+}
+.leftside{
+	background-color: pink;
+	text-align: center;	
+	height: 100%;
+}
+.rightside{
+	background-color: white;
+	height: 100%;
+}
+.row{
+	height:500px;
+}
+.cont{
+	background-color: peru;
+	height: 200px;
+	margin: 10px;
+	padding: 20px;
+	text-align: center;
+}
+.imgrs{
+	display: inline-block;
+	background-color: yellow;
+	width: 25%;
+	height: 10px;
+	margin-right: 20px;
+	margin-left: 20px;
+
+}

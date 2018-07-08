@@ -1,0 +1,14 @@
+h1{
+	color: red; 
+}
+.mobile{
+	display: none;
+}
+@media (max-width: 1000px){
+	.desktop{
+		display: none;
+	}
+	.mobile{
+		display: block;
+	}
+}

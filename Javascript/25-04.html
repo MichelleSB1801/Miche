@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Recetario</title>
+    <link rel="stylesheet" href="dist/25-04.css">
+  </head>
+  <body>
+    <div class="maincontainer">
+			<div class="navcontainer">
+				<nav>
+					<input id="buscador" type="text" name="">
+					<div class="busqueda" onclick="search()">
+						Buscar
+					</div>
+				</nav>
+			</div>
+			<div class="newrecipe">
+				<span>Titulo</span><br>
+				<input id='tittle' type="text" name=""><br>
+				<span>Presupuesto</span><br>
+				<input id='budget' type="text" name=""><br>
+				<span>Ingredientes</span>
+				<div class="newingredient" onclick="addinput()">+</div>
+				<div id='ingredients'></div>
+				<div class="botones">
+					<div class="guardar" onclick="save()">Guardar</div>
+					<div class="limpiar" onclick="clean()">Limpiar</div>
+				</div>
+			</div>
+			<div id="recipescontainer" class="hide">
+			</div>
+    </div>  
+    <script
+ src="https://code.jquery.com/jquery-3.3.1.min.js"
+ crossorigin="anonymous"></script>
+    <script src="js/25-04.js"></script>
+  </body>
+</html>
