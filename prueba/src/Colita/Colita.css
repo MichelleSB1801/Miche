@@ -1,0 +1,13 @@
+.main{
+    width: 400px;
+    height: 400px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+img{
+    width: 50%;
+    height: 50%;
+}
